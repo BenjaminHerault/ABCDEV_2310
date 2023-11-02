@@ -1,6 +1,0 @@
-Ben t'es trop un geek !!! On est bientôt des devs
-<<<<<<< HEAD
-modif test erreur
-=======
-Salut on va TESTER voir si il a des erreur
->>>>>>> 81f98850d34938cd78d40422f0836b77297e2783
