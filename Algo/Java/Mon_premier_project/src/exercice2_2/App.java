@@ -1,5 +1,7 @@
 package exercice2_2;
 
+import java.util.Scanner;
+
 public class App {
 
 	public static void main(String[] args) {
@@ -23,7 +25,29 @@ public class App {
 		Fin Si
 Fin du programme
 	*/
-
+		
+		//Declaration des variable
+		int a;
+		int b;
+		String inferieurEgale;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		inferieurEgale = "<=";
+		
+		System.out.println("Saisir le nombre a");
+		a = sc.nextInt();
+		System.out.println("Saisir le nombre b");
+		b = sc.nextInt();
+		
+		if(a <= b){
+			System.out.println( +a +inferieurEgale +b);
+		}
+		else {
+			System.out.println( +b +inferieurEgale +a);
+		}
+		
+		sc.close();
 	}
 
 }

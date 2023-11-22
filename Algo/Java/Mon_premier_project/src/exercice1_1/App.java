@@ -21,18 +21,18 @@ public class App {
 			FIN DU PROGRAMME
 */
 	// declaraction des variables	
-		double nombre1;
-		double nombre2;
+		int nombre1;
+		int nombre2;
 		double moyenne;
 		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Saisir le 1er nombre");
-		nombre1 = sc.nextDouble();
+		nombre1 = sc.nextInt();
 		System.out.println("Saisir le 2eme nombre");
-		nombre2 = sc.nextDouble();
+		nombre2 = sc.nextInt();
 		
-		moyenne = (nombre1 + nombre2)/2;
+		moyenne = (nombre1 + nombre2)/2d;
 		
 		System.out.println("Le resultat de la moyenne : " +moyenne);
 		
