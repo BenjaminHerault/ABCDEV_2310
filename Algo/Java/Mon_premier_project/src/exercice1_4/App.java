@@ -27,7 +27,7 @@ Fin du programme
 		 */
 		
 		//declaration des variables
-		int somme;
+		double somme;
 		double interet;
 		int nbAnnee;
 		double interetSimple;
@@ -35,7 +35,22 @@ Fin du programme
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.println("Saisir la somme");
+		somme = sc.nextDouble();
+		System.out.println("Saisir l'interet");
+		interet = sc.nextDouble();
+		System.out.println("Saisir le nombre d'année");
+		nbAnnee = sc.nextInt();
 		
+		interetSimple = somme*(1+nbAnnee*interet/100);
+		interetSimple = Math.round(interetSimple*100.00)/100.00;
+		interetComposer = somme*Math.pow(1+interet/100,nbAnnee);
+		interetComposer = Math.round(interetComposer*100.00)/100.00;
+			
+		System.out.println("	.	La valeur acquise avec interet simple est : " +interetSimple);
+		System.out.println("	.	La valeur acquise avec un interet composer est : " +interetComposer);
+		
+		sc.close();
 	}
 
 }
