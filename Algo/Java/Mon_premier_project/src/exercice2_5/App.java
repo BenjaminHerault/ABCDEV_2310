@@ -33,7 +33,11 @@ public class App {
 		nombre = sc.nextInt();
 		
 		for(i = 2; i<nombre-1; i++) {
-			
+			if(nombre%i == 0) {
+				System.out.println("Est divisible par : "+i);
+				i++;
+			}
+			sc.close();
 		}
 		
 	}
