@@ -21,7 +21,7 @@ public class App {
 			resultat = i * nombre1;
 			System.out.println(i + " * " + nombre1 + " = " + resultat);
 			i++;
-		}while(i<=10);
+		}while( i<=10);
 		sc.close();
 	}
 

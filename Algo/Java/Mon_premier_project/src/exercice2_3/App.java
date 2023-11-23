@@ -19,25 +19,31 @@ public class App {
 			Lire c
 			
 		Debut Si
+		
 			Si a<=b ET a<=c Alors
 				Debut Si
+				
 					Si b<=c Alors
 						Ecrire a <= b <= c
 						Sinon
 						Ecrire a <= c <= b
 				Fin Si
+				
 			Sinon Si b <= a ET b <= c Alors
 				Debut Si 
+				
 					Si a <= c Alors
 						Ecrire b <= a <= c
 						Sinon
 						Ecrire b <= c <= a
 				Fin Si
+				
 					Sinon
 					Debut Si
 						Si a<= b Alors
 					Ecrire c <= a <= b
 					Sinon c <= b <= a
+					
 			Fin Si
 		Fin Si
 Fin du programme
@@ -57,17 +63,41 @@ Fin du programme
 			System.out.println("Saisir le nombre c ");
 			c = sc.nextInt();
 			
-			// debut de Si
-				if(a<=b && a<=c) {	
-				
-				// debut de Si
-					if(b<=c) {
-						System.out.println( +a + " <= " + b + " <= " + c);
+			
+				//debut du grand si
+				if(a<=b && a<=c ){
+					//debus du petit si 1 
+						if(b<=c) {
+							System.out.println(a+ "<= "+ b + "<=" + c);
+							}
+							else{
+								System.out.println( a+ " <= " + c + " <= " + b );
+							}
+						}
+				//fin du petit si 1
+				else if(b <= a && b <= c) {
+					//debus du petit si 2
+						if(a <= c) {
+							System.out.println(b+ " <= " + a + " <= " +c);
+							}
+							else {
+								System.out.println(b+ " <= " + c + " <= " +a );
+							}
+						}	
+					//fin du petit si 2
+				else {
+					//depus du petit si 3
+					if(a <= b) {
+						System.out.println(c+ " <= " + a + " <= " +b );
 					}
-					else {
-						System.out.println( +a + " <= " + c + " <= " + b);
-					}
+						else {
+							System.out.println(c+ " <= " + b + " <= " + a);
+						}
+					//fin du petit si 3
 				}
+				//fin du grand si
+				
+				sc.close();
 	}
 
 }
