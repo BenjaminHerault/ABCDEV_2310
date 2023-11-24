@@ -44,7 +44,6 @@ public class App {
 		*/
 		
 		// declaration des variable 
-		int nombre;
 		int max = 100;
 		int min = 0;
 		int essai = 0;
@@ -54,7 +53,11 @@ public class App {
 		
 		int nbJoueur;
 		// generation d'un nombre aleatoire 
-		nbJoueur = nombre.nextInt(max / min +1) + min;
+		nbJoueur = nombre.nextInt(max - min +1) + min;
+			
+		//switch 
+		//bebut de boucle
+			
 		
 		
 		
