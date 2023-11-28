@@ -21,6 +21,7 @@ public class App {
 			win = false
 			min = 0
 			max = 100
+			
 		Debut boucle pour i = nbrandom
 		Faire
 			Ecrire "Saisir un nombre entre ",min," et ",max
@@ -47,22 +48,43 @@ public class App {
 		int max = 100;
 		int min = 0;
 		int essai = 0;
-		
+		int nbJoueur;
 		int win;
-		
-		int i = 1;
+		Scanner sc = new Scanner(System.in);
 		// declaation d'un objet random 
 		Random random = new Random();
-		
-		int nbJoueur;
 		// generation d'un nombre aleatoire 
 		int nbrandom = random.nextInt(100)+1; 
 		System.out.println(nbrandom);
+		
+		System.out.println("Saisr un nombre entre " + min + " et " + max );
+		nbJoueur = sc.nextInt();
+		
 		// debut boucle 
-		
-		while(i<=nbrandom); 
+		while(nbJoueur==nbrandom) {
+			if(nbJoueur>nbrandom) {
+				System.out.println("C'est moins ! ! !");
+				max = nbJoueur ;
+				//System.out.println("Saisir un nombre entre " + min + " et " + max );
+				//nbJoueur = sc.nextInt();
+			}
+			else if(nbJoueur<nbrandom) {
+				System.out.println("C'est plus ! ! !");
+				min = nbJoueur ;
+				//System.out.println("Saisir un nombre entre " + min + " et " + max );
+				//nbJoueur = sc.nextInt();
+			}
+			else {
+				
+			}
 			
+				
+			
+		}
 		
+		
+			
+		sc.close();
 		
 	}
 
