@@ -50,18 +50,16 @@ Fin du programme
 		 */
 		
 		//Declaration des variable
-			int a;
-			int b;
-			int c;
-			
+			double a,b,c;
+
 			Scanner sc = new Scanner(System.in);
 		
 			System.out.println("Saisir le nombre a ");
-			a = sc.nextInt();
+			a = sc.nextDouble();
 			System.out.println("Saisir le nombre b ");
-			b = sc.nextInt();
+			b = sc.nextDouble();
 			System.out.println("Saisir le nombre c ");
-			c = sc.nextInt();
+			c = sc.nextDouble();
 			
 			
 				//debut du grand si

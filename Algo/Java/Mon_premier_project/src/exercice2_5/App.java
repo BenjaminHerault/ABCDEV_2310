@@ -32,10 +32,9 @@ public class App {
 		System.out.println("Saisir un nombre entier");
 		nombre = sc.nextInt();
 		
-		for(i = 2; i<nombre-1; i++) {
+		for(i = 2; i<nombre; i++) {
 			if(nombre%i == 0) {
 				System.out.println("Est divisible par : "+i);
-				i++;
 			}
 			sc.close();
 		}
