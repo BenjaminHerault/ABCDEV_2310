@@ -7,7 +7,10 @@ public class App {
 	public static void main(String[] args) {
 		//declaration des variable 
 		int jour,mois,annee,jourMax;
-		boolean jourValide,moisValide,bissextille;
+		boolean jourValide ;
+		boolean moisValide;
+		boolean bissextille;
+		
 		//debut de programmation
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Saisir le numero du jour");
@@ -15,45 +18,13 @@ public class App {
 			System.out.println("Saisir le numero du mois");
 			mois = sc.nextInt();
 			System.out.println("Saisir l'annee");
-			annee = sc.nextInt();
-	///*
-				//Debut de si
-					if(jourValide == true && moisValide == true) {
-						System.out.println("La date est valide");
-					}
-					else {
-						System.out.println("La date n'est pas valide");
-					}
-				//fin de si 
-			bissextille = annee%400 == 0 || (annee%100 != 0 && annee%4 == 0);
-			jourMax = 0;
-			moisValide = mois >=1 && mois <= 12 ;
-				//debut de si
-					if(moisValide){
-						//debut de si
-						if(mois==2 && bissextille){
-							jourMax = 29;
-							}
-						else if (mois == 2) {
-							jourMax = 28;
-						}
-						else if (mois == 4 || mois == 6 || mois ==9 || mois == 11){
-							jourMax = 30;
-						}
-						else {
-							jourMax =31;
-						}
-						//fin de si
-						jourValide = jour >= 1 && jour <=jourMax;
-					}
-				//fin de si
-	// */	
-			
-	/*				
+			annee = sc.nextInt();			
 			//debut de si
-				if(mois <1 || mois > 12) {
-					System.out.println("Date invalite");}
-					else if (mois == 2) {	
+				if(mois <1 || mois > 12) 
+				{
+					System.out.println("Date invalite");
+				}
+				else if (mois == 2) {	
 				//debut de si 
 					if(annee%400==0) {
 						//debut de si
@@ -98,8 +69,9 @@ public class App {
 					// fin de si
 				}
 			// fin de si	
-			 
-	 */
+		
+				//bissextille = (annee%4 ==0 && annee%100 != 0) || annee%400 ==0;
+			// boolean cas1 = (mois == 1 || mois == 3 || mois == 5 || mois == 8 || mois == 10 || mois == 12  );
 	}
 			
 
