@@ -9,9 +9,9 @@ public class App {
 		int position;
 		int nb;
 		String resultat;
-		float nbPrecedent;
-		float nbCourant;
-		float nbSuivant;
+		long nbPrecedent;
+		long nbCourant;
+		long nbSuivant;
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -19,9 +19,9 @@ public class App {
 		nb = sc.nextInt();
 		
 		position = 2;
-		resultat = "\tO\n\t1";
-		nbPrecedent = 0f;
-		nbCourant = 1f;
+		resultat = "\t0\n\t1";
+		nbPrecedent = 0;
+		nbCourant = 1;
 		
 		//debut de si
 			if(nb>2){

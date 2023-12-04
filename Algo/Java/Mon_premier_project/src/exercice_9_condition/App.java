@@ -69,9 +69,6 @@ public class App {
 					// fin de si
 				}
 			// fin de si	
-		
-				//bissextille = (annee%4 ==0 && annee%100 != 0) || annee%400 ==0;
-			// boolean cas1 = (mois == 1 || mois == 3 || mois == 5 || mois == 8 || mois == 10 || mois == 12  );
 	}
 			
 
