@@ -9,7 +9,7 @@ public class App {
 		// declaration des variable 
 		int max = 100;
 		int min = 0;
-		int essai = 0;
+		int essai = 1;
 		int nbJoueur;
 		Scanner sc = new Scanner(System.in);
 		// declaation d'un objet random 
@@ -17,7 +17,7 @@ public class App {
 		// generation d'un nombre aleatoire 
 		int nbrandom = random.nextInt(100); 
 		//Pour afficher le nombre random
-		//System.out.println(nbrandom);
+		System.out.println(nbrandom);
 		System.out.println("Saisr un nombre entre " + min + " et " + max );
 		nbJoueur = sc.nextInt();
 		// debut boucle 
