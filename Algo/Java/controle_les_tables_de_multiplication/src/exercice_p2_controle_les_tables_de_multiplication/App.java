@@ -11,7 +11,7 @@ public class App {
 		boolean autraTable = false ;
 		String O, N ;
 		
-		autreTable = true +"O";
+		//autreTable = true +"O";
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -27,7 +27,7 @@ public class App {
 				}
 				System.out.println("Souhaitez vous afficher une autre table ? Oui(O) ou Non(N) ");
 				//debut de si
-						if () {
+						if (true) {
 						System.out.println("Saisir un nombre entre 0 et 10");
 						nb = sc.nextInt();
 					}
