@@ -6,7 +6,7 @@ public class App {
 		// Ecrire un algorithme qui déclare et remplit un tableau 
 		// contenant les six voyelles de l’alphabet latin.
 		
-		String[] tabVoy
+	//	String[] tabVoy
 
 	}
 
