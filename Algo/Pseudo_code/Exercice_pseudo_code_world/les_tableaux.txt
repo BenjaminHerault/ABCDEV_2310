@@ -1,0 +1,84 @@
+	EXERCICE 1 
+	Ecrire un algorithme qui déclare et remplit un tableau de 7 valeurs numériques en les mettant toutes à zéro. 
+	Déclaration des variables 
+
+	tabNb est un tableaux entier 
+	i est un entier
+	
+	Debus de programmation 
+		Début de pour
+			Pour i allent de 0 a 6
+			tabNb[i] <- 0
+			i suivant 
+			afficher ,tabNb 
+		Fin de pour 
+
+
+	EXERCICE 2 
+	Ecrire un algorithme qui déclare et remplit un tableau contenant les six voyelles de l’alphabet latin.
+
+	Déclaration des variables 
+		tabVoy est une chaine de caractère 
+
+			tabVoy[00] <- a
+			tabVoy[01] <- e
+			tabVoy[02] <- i
+			tabVoy[03] <- o
+			tabVoy[04] <- u
+			tabVoy[05] <- y
+			
+			Afficher " Les six voyelles de l’alphabet latin sont : " 
+			
+			
+			debut de pour
+				pour char tabVoy1 : tabVoy
+				faire 
+				afficher ,tabVoy1
+			Fin de pour 
+
+
+	EXERCICE 3
+	
+	Ecrivez un algorithme permettant à l’utilisateur de saisir un nombre quelconque de valeurs,
+	qui devront être stockées dans un tableau.
+	L’utilisateur doit donc commencer par entrer le nombre de valeurs qu’il compte saisir. 
+	Il effectuera ensuite cette saisie. Enfin, une fois la saisie terminée, 
+	le programme affichera le nombre de valeurs négatives et le nombre de valeurs positives.
+
+	Declaration des variables
+	
+	nb est un entier
+	nbPosi est un entier 
+	nbNega est un entier
+	i est un entier 
+	nbTab est un tableau
+		
+		Debut de programmation
+		
+			Afficher " Entre le nombre de valeur que vous compte saisir "
+			lire nb
+			nbPosi <-- 0
+			nbNega <-- 0
+			Tab[] <-- nb
+			
+		Debut de pour 
+				
+			pour i allant  de 0 a nb -1
+				ecrire " Saisir le nombre ° " ,i+1
+				lire tab[i]
+				
+		debut de si
+		
+			si tab[i] > 0
+			Alors 
+				nbPosi <-- nbPosi + 1
+			sinon si tab[1} <0
+				nbNega <-- +1
+		
+		fin de si	
+			i++	
+		Fin de pour
+			Ecrire "Le nombre de valeurs positive : " ,nbPosi
+			Ecrire "Le nombre de valeurs negative : " ,nbNega
+			
+		Fin de programmation

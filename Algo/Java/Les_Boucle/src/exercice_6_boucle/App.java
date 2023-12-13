@@ -21,7 +21,7 @@ public class App {
 			
 		}
 		System.out.println("Le nombre le plus grand est "+nbmax+ " il se trouve en position " +nbpose);
-		
+		sc.close();
 	}
 
 }

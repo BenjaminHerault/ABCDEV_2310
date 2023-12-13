@@ -19,7 +19,7 @@ public class App {
 					i++;
 				}
 		//fin de porgrammation 
-
+				sc.close();
 	}
 
 }

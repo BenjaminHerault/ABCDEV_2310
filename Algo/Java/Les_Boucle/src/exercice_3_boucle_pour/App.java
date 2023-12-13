@@ -18,6 +18,7 @@ public class App {
 			np = np+1;
 			System.out.println(np);
 			}
+		sc.close();
 	}
 
 }
