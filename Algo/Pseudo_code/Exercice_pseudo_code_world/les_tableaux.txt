@@ -18,7 +18,7 @@
 	Ecrire un algorithme qui déclare et remplit un tableau contenant les six voyelles de l’alphabet latin.
 
 	Déclaration des variables 
-		tabVoy est une chaine de caractère 
+		tabVoy est une chaine de caractère de type tableau
 
 			tabVoy[00] <- a
 			tabVoy[01] <- e
@@ -51,7 +51,7 @@
 	nbPosi est un entier 
 	nbNega est un entier
 	i est un entier 
-	nbTab est un tableau
+	nbTab est un entier de type tableau
 		
 		Debut de programmation
 		
@@ -82,3 +82,136 @@
 			Ecrire "Le nombre de valeurs negative : " ,nbNega
 			
 		Fin de programmation
+		
+		EXERCICE 4
+		Ecrivez un algorithme calculant la somme des valeurs d’un tableau 
+		(on suppose que le tableau a été préalablement saisi).
+		
+		
+		declaration des variable 
+		
+		np, i , res sont des entier 
+		tab[] est un entier de type tableau
+		
+		debut de programmation
+		
+			ecrire "Saisir le nombre de valeur du tableau"
+			lire np
+			tab<--tab[np]
+			res <-- 0 
+		debut de pour 
+
+			pour i allant de 0 a tab[np]-1
+				ecrire "Saisir le nombre est ° : " (,i+1)
+				lire tab[i]
+				res <-- res + tab[i]
+				i suivant
+		
+		fin de pour
+		
+		ecrire " la somme des elements du tableau est : " ,somme 
+		
+		fin de programmation
+		
+		
+		EXERCICE 5
+		Ecrivez un algorithme constituant un tableau, à partir de deux tableaux de même longueur 
+		préalablement saisis. Le nouveau tableau sera la somme des éléments des deux tableaux de départ.
+		
+		Tableau 1 :
+		4 8 7 9 1 5 4 6
+		
+		Tableau 2 :
+		7 6 5 2 1 3 7 4
+		
+		Tableau à constituer :
+		11 14 12 11 2 8 11 10
+		
+		declaration des variable
+		i est un entier 
+		tab1 est un entir de type tableau
+		tab2 est un entir de type tableau
+		tab3 est un entir de type tableau
+		
+		
+		tab1[]<--8
+		
+		tab1[00] = '4'
+		tab1[01] = '8'
+		tab1[02] = '7'
+		tab1[03] = '9'
+		tab1[04] = '1'
+		tab1[05] = '5'
+		tab1[06] = '4'
+		tab1[07] = '6'
+		
+		
+		tab2[] <--8
+		
+		tab2[00] = '7'
+		tab2[01] = '6'
+		tab2[02] = '5'
+		tab2[03] = '2'
+		tab2[04] = '1'
+		tab2[05] = '3'
+		tab2[06] = '7'
+		tab2[07] = '4'
+		
+		
+		afficher  
+		
+		debut de pout 
+		
+		pour i allant de 0 a tab3-1 
+			faire
+		tab3[i]<--tab1[i]+tab2[i]
+		
+		afficher ,tab3
+		
+		fin de pour 
+		
+		EXERCICE 6
+		Toujours à partir de deux tableaux précédemment saisis, 
+		écrivez un algorithme qui calcule la somme 
+		des produits des deux tableaux. Pour calculer le résultat, 
+		il faut multiplier chaque élément du tableau 1 par 
+		chaque élément du tableau 2, et additionner le tout. Par exemple si l'on a :
+		
+		Tableau 1 :
+		4 8 7 12
+		
+		Tableau 2 :
+		3 6
+		
+		Le résultat sera :
+		3 * 4 + 3 * 8 + 3 * 7 + 3 * 12 +     6 * 4 + 6 * 8 + 6 * 7 + 6 * 12 = 279
+		
+		
+		declaration des variable 
+		i est un entier
+		j est un entier
+		res est un entier 
+		tab1 est un entir de type tableau
+		tab2 est un entir de type tableau
+		
+		res <-- 0
+		
+		tab1[]<--4
+		
+		tab1[00] = '4'
+		tab1[01] = '8'
+		tab1[02] = '7'
+		tab1[03] = '12'
+
+		tab2[] <--2
+		
+		tab2[00] = '3'
+		tab2[01] = '6'
+
+		pour i allant de 0 a tab1 a -1   i suivant
+			faire 
+			pour j=0 a tab2 faire
+				res <-- res + (Tab[i]*tab[j]))
+			fin pour
+		fin pour
+		afficher ,res  
