@@ -215,3 +215,39 @@
 			fin pour
 		fin pour
 		afficher ,res  
+		
+		
+		EXERCICE 7
+		Ecrivez un algorithme qui permet la saisie d’un nombre quelconque de valeurs, 
+		 
+		Toutes les valeurs doivent être ensuite augmentées de 1, 
+		et le nouveau tableau sera affiché à l’écran.
+		
+		i est un entier  
+		k est un entier 
+		nb est un entier 
+		tab1 est un entier de type tableaux 
+		
+		
+		Afficher "Saisir le nombre de valeur du tableau"
+		lire np 
+		afficher "saisir l"
+		
+		debut de pour
+		
+			pour i allant  de 0 a tab -1  i suivant 
+				faire
+					ecrire " Saisir le nombre ° " ,i+1
+					lire tab[i]
+		fin de pour 
+		afficher "les nombre du tableaux sont : ",tab1 
+		
+		debut de pour i allant  de 0 a tab -1  i suivant
+			faire
+				tab1[i]<--tab1+1
+		fin de pour
+		
+			afchier "les nombre du tableaux avec + 1 sont : " , tab1
+			
+			fin de porgrammation
+		
