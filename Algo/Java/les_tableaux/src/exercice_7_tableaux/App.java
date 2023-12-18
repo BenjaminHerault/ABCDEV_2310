@@ -24,6 +24,7 @@ public class App {
 			
 			}
 			System.out.print("Tableaux normal");
+			
 		//pour afficher le tableux normal 
 			for(int j = 0; j <= tab1.length-1;j++) {
 				System.out.print(" "+tab1[j] + " ");
