@@ -1,0 +1,373 @@
+	EXERCICE 1 
+	Ecrire un algorithme qui déclare et remplit un tableau de 7 valeurs numériques en les mettant toutes à zéro. 
+	Déclaration des variables 
+
+	tabNb est un tableaux entier 
+	i est un entier
+	
+	Debus de programmation 
+		Début de pour
+			Pour i allent de 0 a 6
+			tabNb[i] <- 0
+			i suivant 
+			afficher ,tabNb 
+		Fin de pour 
+
+
+	EXERCICE 2 
+	Ecrire un algorithme qui déclare et remplit un tableau contenant les six voyelles de l’alphabet latin.
+
+	Déclaration des variables 
+		tabVoy est une chaine de caractère de type tableau
+
+			tabVoy[00] <- a
+			tabVoy[01] <- e
+			tabVoy[02] <- i
+			tabVoy[03] <- o
+			tabVoy[04] <- u
+			tabVoy[05] <- y
+			
+			Afficher " Les six voyelles de l’alphabet latin sont : " 
+			
+			
+			debut de pour
+				pour char tabVoy1 : tabVoy
+				faire 
+				afficher ,tabVoy1
+			Fin de pour 
+
+
+	EXERCICE 3
+	
+	Ecrivez un algorithme permettant à l’utilisateur de saisir un nombre quelconque de valeurs,
+	qui devront être stockées dans un tableau.
+	L’utilisateur doit donc commencer par entrer le nombre de valeurs qu’il compte saisir. 
+	Il effectuera ensuite cette saisie. Enfin, une fois la saisie terminée, 
+	le programme affichera le nombre de valeurs négatives et le nombre de valeurs positives.
+
+	Declaration des variables
+	
+	nb est un entier
+	nbPosi est un entier 
+	nbNega est un entier
+	i est un entier 
+	nbTab est un entier de type tableau
+		
+		Debut de programmation
+		
+			Afficher " Entre le nombre de valeur que vous compte saisir "
+			lire nb
+			nbPosi <-- 0
+			nbNega <-- 0
+			Tab[] <-- nb
+			
+		Debut de pour 
+				
+			pour i allant  de 0 a nb -1
+				ecrire " Saisir le nombre ° " ,i+1
+				lire tab[i]
+				
+		debut de si
+		
+			si tab[i] > 0
+			Alors 
+				nbPosi <-- nbPosi + 1
+			sinon si tab[1} <0
+				nbNega <-- +1
+		
+		fin de si	
+			i++	
+		Fin de pour
+			Ecrire "Le nombre de valeurs positive : " ,nbPosi
+			Ecrire "Le nombre de valeurs negative : " ,nbNega
+			
+		Fin de programmation
+		
+		EXERCICE 4
+		Ecrivez un algorithme calculant la somme des valeurs d’un tableau 
+		(on suppose que le tableau a été préalablement saisi).
+		
+		
+		declaration des variable 
+		
+		np, i , res sont des entier 
+		tab[] est un entier de type tableau
+		
+		debut de programmation
+		
+			ecrire "Saisir le nombre de valeur du tableau"
+			lire np
+			tab<--tab[np]
+			res <-- 0 
+		debut de pour 
+
+			pour i allant de 0 a tab[np]-1
+				ecrire "Saisir le nombre est ° : " (,i+1)
+				lire tab[i]
+				res <-- res + tab[i]
+				i suivant
+		
+		fin de pour
+		
+		ecrire " la somme des elements du tableau est : " ,somme 
+		
+		fin de programmation
+		
+		
+		EXERCICE 5
+		Ecrivez un algorithme constituant un tableau, à partir de deux tableaux de même longueur 
+		préalablement saisis. Le nouveau tableau sera la somme des éléments des deux tableaux de départ.
+		
+		Tableau 1 :
+		4 8 7 9 1 5 4 6
+		
+		Tableau 2 :
+		7 6 5 2 1 3 7 4
+		
+		Tableau à constituer :
+		11 14 12 11 2 8 11 10
+		
+		declaration des variable
+		i est un entier 
+		tab1 est un entir de type tableau
+		tab2 est un entir de type tableau
+		tab3 est un entir de type tableau
+		
+		
+		tab1[]<--8
+		
+		tab1[00] = '4'
+		tab1[01] = '8'
+		tab1[02] = '7'
+		tab1[03] = '9'
+		tab1[04] = '1'
+		tab1[05] = '5'
+		tab1[06] = '4'
+		tab1[07] = '6'
+		
+		
+		tab2[] <--8
+		
+		tab2[00] = '7'
+		tab2[01] = '6'
+		tab2[02] = '5'
+		tab2[03] = '2'
+		tab2[04] = '1'
+		tab2[05] = '3'
+		tab2[06] = '7'
+		tab2[07] = '4'
+		
+		
+		afficher  
+		
+		debut de pout 
+		
+		pour i allant de 0 a tab3-1 
+			faire
+		tab3[i]<--tab1[i]+tab2[i]
+		
+		afficher ,tab3
+		
+		fin de pour 
+		
+		EXERCICE 6
+		Toujours à partir de deux tableaux précédemment saisis, 
+		écrivez un algorithme qui calcule la somme 
+		des produits des deux tableaux. Pour calculer le résultat, 
+		il faut multiplier chaque élément du tableau 1 par 
+		chaque élément du tableau 2, et additionner le tout. Par exemple si l'on a :
+		
+		Tableau 1 :
+		4 8 7 12
+		
+		Tableau 2 :
+		3 6
+		
+		Le résultat sera :
+		3 * 4 + 3 * 8 + 3 * 7 + 3 * 12 +     6 * 4 + 6 * 8 + 6 * 7 + 6 * 12 = 279
+		
+		
+		declaration des variable 
+		i est un entier
+		j est un entier
+		res est un entier 
+		tab1 est un entir de type tableau
+		tab2 est un entir de type tableau
+		
+		res <-- 0
+		
+		tab1[]<--4
+		
+		tab1[00] = '4'
+		tab1[01] = '8'
+		tab1[02] = '7'
+		tab1[03] = '12'
+
+		tab2[] <--2
+		
+		tab2[00] = '3'
+		tab2[01] = '6'
+
+		pour i allant de 0 a tab1 a -1   i suivant
+			faire 
+			pour j=0 a tab2 faire
+				res <-- res + (Tab[i]*tab[j]))
+			fin pour
+		fin pour
+		afficher ,res  
+		
+		
+		EXERCICE 7
+		Ecrivez un algorithme qui permet la saisie d’un nombre quelconque de valeurs, 
+		 
+		Toutes les valeurs doivent être ensuite augmentées de 1, 
+		et le nouveau tableau sera affiché à l’écran.
+		
+		i est un entier  
+		k est un entier 
+		j est un entier 
+		o est un entier 
+		nb est un entier 
+		tab1 est un entier de type tableaux 
+		
+		
+		Afficher "Saisir le nombre de valeur du tableau"
+		lire np 
+		
+		tab1 <-- nb 
+		
+		debut de pour
+		
+			pour i allant  de 0 a tab -1  i suivant 
+				faire
+					ecrire " Saisir le nombre ° " ,i+1
+					lire tab[i]
+		fin de pour
+		
+		afficher "tableaux normal"
+		
+		debut de pour j allant  de 0 a tab -1  j suivant
+			faire
+				tab1[j]<--tab1+1
+		fin de pour
+		
+			debut de pour 
+			
+				pour k allent de 0 a tab1  k suivant 
+				faire 
+					tab1[k] <-- tab1[k]+1
+			
+			fin de pour 
+			
+			afchier "les nombre du tableaux avec + 1 sont : " , tab1
+			
+			debut de pour
+			
+				pour o allant de 0 a tab 1 o suivant 
+				faire 
+					afficher ,tab1[o]
+			
+			fin de pour 
+			
+			fin de porgrammation
+			
+		EXERCICE 8
+		
+		Ecrivez un algorithme permettant, toujours sur le même principe, à l’utilisateur de saisir un nombre 
+		déterminé de valeurs. Le programme, une fois la saisie terminée, renvoie la plus grande valeur en précisant 
+		quelle position elle occupe dans le tableau. On prendra soin d’effectuer la saisie dans un premier temps, et 
+		la recherche de la plus grande valeur du tableau dans un second temps.
+		
+		declaraction des variable 
+		
+		i est un entier 
+		j est un entier 
+		nbmax est un entier
+		pos est un entier 
+		nb est un entier 
+		tab est un entier de type tableau
+		
+		debut de programmation
+		
+		afficher "Saisir le nombre de valeur du tableau"
+		lire nb
+		
+		tab <-- nb 
+		
+		debut de pour
+			pour i allant de 0 a tab i suivant 
+				faire 
+					afficher "Saisir le nombre ° " ,i+1
+					lire tab[i]
+					
+		fin de pour
+		
+		debut de pour
+		
+		k allant de 0 a tab k suivant 
+			faire 
+				debut de si
+					si tab[k]> tab[nbmax]
+						faire 
+							nbmax = k 
+				fin de si
+		fin de pour 
+		
+		afficher le nombre le plus grand est ,tab[nbmax]
+	
+		fin de programmation
+		
+		
+		
+		EXERCICE 9
+		Toujours et encore sur le même principe, écrivez un algorithme permettant, à l’utilisateur de saisir les 
+		notes d'une classe. Le programme, une fois la saisie terminée, renvoie le nombre de ces notes supérieures 
+		à la moyenne de la classe.
+		
+		declaraction des variable 
+		
+		nb est un entier 
+		i est un entier 
+		somme = 0 est un entier 
+		moy est un entier
+		nbSup est un entier
+		tab est un entier de type tableau 
+		
+		debut de programmation
+		afficher "Saisir le nombre de valeur du tableau"
+		lire nb
+		
+		tab <-- nb 
+		
+		debut de pour
+			pour i allant de 0 a tab i suivant 
+				faire 
+					afficher "Saisir le nombre ° " ,i+1
+					lire tab[i]
+		fin de pour 
+		
+		
+		debut de pour
+			pour k allant de 0 a tab k suivant 
+				faire 
+				somme <-- somme +tab[k]
+		fin de pour 
+		
+		
+		moy <-- somme + tab[k]
+		nbSup <--0
+		
+				
+		debut de pour
+			pour j allant de 0 a tab j suivant 
+				faire 
+					debut de si 
+						si tab[k] > moy
+							alors
+								nbSup <--nbSup +1 
+					fin de si 
+		fin de pour
+		
+			Ecrire nbSup, " eleves depassent la moyenne de la classe"
+			
+		fin de porgrammmation 
