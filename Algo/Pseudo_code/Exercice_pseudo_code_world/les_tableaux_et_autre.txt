@@ -371,3 +371,46 @@
 			Ecrire nbSup, " eleves depassent la moyenne de la classe"
 			
 		fin de porgrammmation 
+		
+		
+		EXERCICE 1
+		Écrivez une fonction qui renvoie la somme de cinq nombres fournis en argument.
+											var somme = arg 1 + arg 2 + arg 3 + arg 4 +arg 5
+							fonction calcul(int arg 1 ,int  arg 2 ,int arg 3 ,int arg 4 ,int arg 5)
+								// execute une addition
+					
+								return somme
+			
+			
+			
+			
+			
+		debut de la fonction
+	public static int calcul arg1 + arg2 + arg3 + arg4 + arg5 sont des entier 
+	somme<-- 0
+	somme<-- arg1 + arg2 + arg3 + arg4 + arg5
+	return somme
+		fin de fonction
+		
+		
+		declration des variables
+			somme est un entier 
+			tab est un entiet de type tableaux 
+			
+		debut de programmation
+			
+			tab[]<-- 5
+		debut de pour
+			pour i <--0 a i <= tab i suivant 
+				faire 
+			afficher "Saisir le nombre ° "(i+1)
+			lire tab[i]
+		fin de pour
+		
+			somme <--calcul tab[0], tab[1] , tab[2] , tab[3] , tab[4]
+			afficher "La somme des veleurs est : ",somme 
+		
+		fin de programmation
+		
+			
+		
