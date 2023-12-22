@@ -413,4 +413,47 @@
 		fin de programmation
 		
 			
+		EXERCICE 2
+		Écrivez une fonction qui renvoie le nombre de voyelles 
+		contenues dans une chaîne de caractères passée en 
+		argument.
 		
+
+			public static int compteur ( motest une chaine de carataire) 
+		compteur est un entier 
+		compteur = 0 
+		
+		pour i allant de 0 a tab -1 faire 
+		
+			si( mot.charAt(j)=='a'||
+				mot.charAt(j)=='A'||
+				mot.charAt(j)=='e'||
+				mot.charAt(j)=='E'||
+				mot.charAt(j)=='u'||
+				mot.charAt(j)=='U'||
+				mot.charAt(j)=='i'||
+				mot.charAt(j)=='I'||
+				mot.charAt(j)=='o'||
+				mot.charAt(j)=='O'||
+				mot.charAt(j)=='y'||
+				mot.charAt(j)=='Y') 
+				
+				compteur <-- compteur +1
+			
+		
+		return compteur
+	
+
+	public static void main(String[] args) 
+		compteur est un entier 
+		mot est une chaine de carataire
+		
+		afficher "Saisir un mot ou une phare"
+		lire mot
+		compteur <-- compteur (mot)
+		
+		afficher"Il a " ,compteur, " voyelle"
+		
+		
+	
+
