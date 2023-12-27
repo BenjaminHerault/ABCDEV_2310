@@ -456,4 +456,28 @@
 		
 		
 	
-
+		EXERCICE 3
+		Ecrivez une fonction qui purge une chaîne d'un caractère,
+		la chaîne comme le caractère étant passés en
+		argument. Si le caractère spécifié ne fait pas partie de 
+		la chaîne, celle-ci devra être retournée intacte. 
+		Par exemple :
+		• Purge("Bonjour","o") renverra "Bnjur"
+		• Purge("J'ai horreur des espaces"," ") renverra "J'aihorreurdesespaces"
+		• Purge("Bonjour tout le monde", "y") renverra "Bonjour tout le monde"
+	
+		Declaration des caractère
+		mot et une chaine de caractère
+		supp et une chaine de caractère
+		
+		debut de programmation
+		
+		afficher "Saisir un mot ou une phare"
+		lire mot 
+		affiché "Quelle caractère voullez vous purge ? 
+		lire supp 
+		
+		debut de pour 
+			pour i allant de 0 a mot i suivant 
+				faire 
+				mot <--supp
