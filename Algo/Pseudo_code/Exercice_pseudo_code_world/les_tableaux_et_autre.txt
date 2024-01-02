@@ -470,14 +470,69 @@
 		mot et une chaine de caractère
 		supp et une chaine de caractère
 		
-		debut de programmation
+		public static mot est une chaine de carataire  ( supp une chaine de carataire) 
+			declaration des variable
+			i est un entier 
 		
-		afficher "Saisir un mot ou une phare"
-		lire mot 
-		affiché "Quelle caractère voullez vous purge ? 
-		lire supp 
+			debut de programmation
+			
+			afficher "Saisir un mot ou une phare"
+			lire mot 
+			affiché "Quelle caractère voullez vous purge ? 
+			lire supp 
+			
+			debut de pour 
+				pour i allant de 0 a mot i suivant 
+					si mot[i] = supp[0] alors 
+					faire 
+					mot <--supp
+				fin de si 
+			fin de pour 
+			fin de programmation
+			
+			
+			debut de programmation
+			
+			   public static void main(String[] args)
+			   mot est une chaine de caractère
+			   supp est une chaine de caractère
+			   
+			   mot <-- mot(supp)
+			   afficher mot 
+			  
+			  fin de programmation
+			  
+		EXERCICE 4
+		Même question que précédemment, mais cette fois, 
+		la fonction Purgebis doit pouvoir recevoir un nombre 
+		quelconque de caractères à supprimer en argument. 
+		Par exemple, Purgebis(phrase, "aeiouy") enlèvera 
+		toutes les voyelles que contient la variable phrase.
 		
-		debut de pour 
-			pour i allant de 0 a mot i suivant 
-				faire 
-				mot <--supp
+					debut de programmation
+			
+			afficher "Saisir un mot ou une phare"
+			lire mot 
+			affiché "Quelle caractère voullez vous purge ? 
+			lire supp 
+			
+			debut de pour 
+				pour i allant de 0 a mot i suivant 
+					si mot[i] = supp[i] alors 
+					faire 
+					mot <--supp
+				fin de si 
+			fin de pour 
+			fin de programmation
+			
+			
+			debut de programmation
+			
+			   public static void main(String[] args)
+			   mot est une chaine de caractère
+			   supp est une chaine de caractère
+			   
+			   mot <-- mot(supp)
+			   afficher mot 
+			  
+			  fin de programmation
