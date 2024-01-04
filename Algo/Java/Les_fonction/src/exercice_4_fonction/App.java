@@ -5,31 +5,41 @@ import java.util.Scanner;
 public class App {
 	
 	
-	public static String mot (String supp ) {
-		String mot ;
-		int i;
+	public static String suppLettre (String supp , String mot ) {
+        for(int i = 0; i<= mot.length()-1;i++) {
+            if (mot.charAt(i) == supp.charAt(0)) {
+                 mot = mot.substring(0, i) + mot.substring(i + 1);
+                 i--;
+             }
+        }
+		return mot;
+	}
+	public static String suppMot (String supp , String mot ) {
+        for(int i = 0; i<= mot.length()-1;i++) {
+        	for(int k = 0 ; k<= supp.length()-1;k++) {
+                if (mot.charAt(i) == supp.charAt(k)) {
+                    mot = mot.substring(0, i) + mot.substring(i + 1);
+                    i--;
+                    break;
+                }
+        	}
+        }
+		return mot;
+	}
+    public static void main(String[] args) {
+    	String mot;
+    	String supp;
+    	
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Saisir un mot ou une phare : ");
         mot = sc.nextLine();
-
-        System.out.println("Saisir un caractère à supprimer : ");
+        System.out.println("Saisir des caractères à supprimer : ");
         supp = sc.nextLine();
-
-        for(i = 0; i<= mot.length()-1;i++) {
-            if (mot.charAt(i) == supp.charAt(i)) {
-                 mot = mot.substring(0, i) + mot.substring(i + 1);
-             }
-        }
-		sc.close();
-		return mot;
-	}
-	
-    public static void main(String[] args) {
-    	String mot;
-    	String supp = null;
-    	
-    	mot = mot(supp);
+        
+    	mot = suppLettre(supp , mot);
         System.out.println(mot);
+		sc.close();
     }
 }
+
