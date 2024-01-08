@@ -9,7 +9,6 @@ public class App {
         for(int i = 0; i<= mot.length()-1;i++) {
             if (mot.charAt(i) == supp.charAt(0)) {
                  mot = mot.substring(0, i) + mot.substring(i + 1);
-                 i--;
              }
         }
 		return mot;
@@ -19,8 +18,6 @@ public class App {
         	for(int k = 0 ; k<= supp.length()-1;k++) {
                 if (mot.charAt(i) == supp.charAt(k)) {
                     mot = mot.substring(0, i) + mot.substring(i + 1);
-                    i--;
-                    break;
                 }
         	}
         }

@@ -15,12 +15,16 @@ public class App {
 
         System.out.println("Saisir un caractère à supprimer : ");
         supp = sc.nextLine();
+        
 
-        for(i = 0; i<= mot.length()-1;i++) {
-            if (mot.charAt(i) == supp.charAt(0)) {
-                 mot = mot.substring(0, i) + mot.substring(i + 1);
-             }
+
+        for(i = 0 ; i<= mot.length()-1;i++) {
+        	if(mot != supp) {
+              
+        	}
         }
+
+       
         System.out.println(mot);
         sc.close();
     }
