@@ -3,29 +3,34 @@ package exercice_3_fonction;
 import java.util.Scanner;
 
 public class App {
-    public static void main(String[] args) {
-        //declration des variables
-        String mot;
-        String supp;
-        int i ;
-        Scanner sc = new Scanner(System.in);
+	
+	public static String purge(String chaine, String lettre){
+		String chainePurger = "";
+		char lettreChar = lettre.charAt(0);
+		
+		for(int i = 0; i < chaine.length();i++){
+			if(chaine.charAt(i) != lettreChar){
+				chainePurger = chainePurger + chaine.charAt(i);
+			}
+		}
+		return chainePurger;
+	}
 
-        System.out.println("Saisir un mot ou une phare : ");
-        mot = sc.nextLine();
+	public static void main(String[] args) {
+		
+		String chaineSaisie, lettreSaisie;
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Saisr un mot ou une prhase");
+		chaineSaisie = sc.nextLine();
+		System.out.println("Saisr une lettre");
+		lettreSaisie = sc.nextLine();
+		
+		System.out.println(purge(chaineSaisie,lettreSaisie));
+		
+		sc.close();
 
-        System.out.println("Saisir un caractère à supprimer : ");
-        supp = sc.nextLine();
-        
+	}
 
-
-        for(i = 0 ; i<= mot.length()-1;i++) {
-        	if(mot != supp) {
-              
-        	}
-        }
-
-       
-        System.out.println(mot);
-        sc.close();
-    }
 }
