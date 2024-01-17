@@ -6,28 +6,31 @@ public class PorteDeGarage {
 	
 	private boolean estFermer ;
 	private boolean estVerrouiller ;
-	private boolean estPartiellementOuverte ;
-	private double estEnDegre ; 
-	
-		
+	private double estEnPourcent ; 
+	private final double min ;
+	private final double max ;
+
 	public PorteDeGarage () {
 		
 		estFermer = false ;
 		estVerrouiller = false ;
-		estPartiellementOuverte = false ;
-		estEnDegre = 0 ;
+		estEnPourcent = 0 ;
+		min = 0;
+		max = 100;
 	}
 	public PorteDeGarage( boolean _estFermer , boolean _estVerrouiller, 
-						  boolean _estPartiellementOuverte , double _estEnDegre ) {
+						  double _estEnPourcent ,double _min , double _max) {
 		
 		this.estFermer = _estFermer ;
 		this.estVerrouiller = _estVerrouiller ;
-		this.estPartiellementOuverte = _estPartiellementOuverte ;
+		this.estEnPourcent = _estEnPourcent;
+		this.min = _min;
+		this.max = _max ;
 	}
 	public boolean ouvrir() {
 		if(estFermer & !estVerrouiller) {
 			this.estFermer = false ;
-			this.estEnDegre = 90 ;
+			this.estEnPourcent = max ;
 			return true ;
 		}
 		else {
@@ -37,7 +40,7 @@ public class PorteDeGarage {
 	public boolean fermer () {
 		if (!estFermer & !estVerrouiller ) {
 			this.estFermer = true ;
-			this.estEnDegre = 0 ;
+			this.estEnPourcent = min ;
 			return true;
 		}
 		else {
@@ -62,27 +65,33 @@ public class PorteDeGarage {
 			return true;
 		}	
 	}
-	public boolean ouvrirPartiellement( double degreOuverture) {
-		
-		double degre = degreOuverture;
-		boolean VeriferOuvrir = false;
-		double min = 0 ;
-		double max = 90;
-		
-			if (!estFermer & !estVerrouiller ){
-				if(degre >= min || degre <= max) {
-					this.estPartiellementOuverte = true;
-					this.estEnDegre = degreOuverture;
-					VeriferOuvrir = true ;
-				}
-				else if  ( degre == min || degre == max) {
-					this.estPartiellementOuverte = false ;
-					}
-				else {
-					VeriferOuvrir = false;
-				}
-			}
-			return VeriferOuvrir; 
-	}
 	
+	public boolean ouvrirPartiellement( double degreOuverture) {
+
+		if(!estVerrouiller && estEnPourcent < degreOuverture) {
+			estEnPourcent = degreOuverture ;
+			if (degreOuverture > min ) {
+				this.estFermer = false ;
+			}
+			return true ;
+		}
+		else {
+			return false ;
+		}
+
+	}
+	public boolean fermerPartiellement( double degreDeFermer) {
+		if(!estVerrouiller && estEnPourcent > degreDeFermer) {
+			estEnPourcent = degreDeFermer ;
+			if (degreDeFermer > min ) {
+				this.estFermer = false ;
+			}
+			return true ;
+		}
+		else {
+			return false ;
+		}
 }
+		
+}
+
