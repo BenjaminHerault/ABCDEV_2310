@@ -2,6 +2,7 @@ package cours_ville;
 
 public class Ville {
 	
+		// les attributs 
 	// stocke le nom de la ville
 	private String nomVille;
 	// stocke le nom du pays de la ville 
@@ -9,6 +10,10 @@ public class Ville {
 	// stock le nombre d'habitant de la ville 
 	private int nbHabitants ;
 	private char categories;
+	//variable publique qui compte les instances 
+	public static int nbInstances = 0;
+	//variable privée qui compte les instances 
+	private static int nbInstancesBis = 0;
 
 	
 	// constructeur par defaut
@@ -18,6 +23,9 @@ public class Ville {
 		nomPays = "inconnu";
 		nbHabitants = 0;
 		this.setcategorie();
+		// on incremmente les variables à chaque appel du constructeur
+		nbInstances++;
+		nbInstancesBis++;
 	}
 	
 	// constructeur avec paramétres
@@ -29,6 +37,9 @@ public class Ville {
 		nomPays = pNomPays;
 		nbHabitants = nbre;
 		this.setcategorie();
+		// on incremmente les variables à chaque appel du constructeur
+		nbInstances++;
+		nbInstancesBis++;
 	}
 	//**********************ACCESSEURS***********************//
 	
@@ -41,13 +52,20 @@ public class Ville {
 	public String getNomPays() {
 		return nomPays;
 	}
+	
 	// Retourne le nombre d'habitant
 	public int getNbHabitants() {
 		return nbHabitants;
 	}
+	
 	//Retourne la categorie 
 	public char getCategories() {
 		return categories;
+	}
+	
+	// Retourne le nombre d'instance
+	public static int getNbInstances(){
+		return nbInstancesBis;
 	}
 	
 	//**********************MUTATEURS***********************//
@@ -61,6 +79,7 @@ public class Ville {
 	public void setNomPays (String pNomPays) {
 		nomPays = pNomPays ;
 	}
+	
 	//Définit le nombre d'habitant
 	public void setNbHabitants(int nbre) {
 		nbHabitants = nbre ;
@@ -102,8 +121,6 @@ public class Ville {
 		}
 		return str;
 	}
-	
-	
 }
 
 
