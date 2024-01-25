@@ -93,21 +93,14 @@ public class Les_poupees_russes {
 		char EstContenuDansPoupee [] = {'b','c'};
 		char identifiantPoupee    [] = {'A','B' ,'C' }; 	
 		
-		int i = 0 ;
+	
 		
-		while (i < taille_pouper_cm.length && this.taille > taille_pouper_cm[i]) {
-			i++;
-		}
-		this.identifiantPoupee = identifiantPoupee[i];
 		
 	}
 	// définit dans quelle pouper elle et contenu
 	private void setEstContenuDansPoupee() {
 		// a et plus petit b et moyenne et c et la  plus grande 
-		for(int = i ; )
-		if(taille_pouper_cm[0] > taille_pouper_cm[1]) {
-			
-		}
+		 
 		
 		
 	}
