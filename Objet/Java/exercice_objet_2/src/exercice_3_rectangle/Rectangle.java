@@ -4,24 +4,25 @@ public class Rectangle {
 	
 	private double longueur ;
 	private double largeur ;
-	private double laSurface ;
-	private double lePerimetre ;
+
 	
 	public Rectangle (double _longueur , double _largeur) {
 		this.longueur = _longueur ;
 		this.largeur = _largeur ;
 	}
-	public void surface () {
-		laSurface = this.largeur*this.longueur;
+
+	public double surface () {
+		double surface = this.largeur*this.longueur;
+		return surface ;
 	}
-	public void perimetre () {
-		lePerimetre = (this.largeur+this.longueur)*2;
+	public double perimetre () {
+		double perimetre = (this.largeur+this.longueur)*2;
+		return perimetre ;
 	}
 	public void afficher (String leResulta) {
-		System.out.println("La surface du rectangle et :  "
-							+this.laSurface + 
+		System.out.println("La surface du rectangle et :  "+this.surface() + 
 							". Le perimetre du rectangle et : "
-							+this.lePerimetre+ "." );
+							+this.perimetre()+ "." );
 	}
 	
 }
