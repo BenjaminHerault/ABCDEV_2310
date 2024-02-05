@@ -1,7 +1,7 @@
 package Robot;
 
 public class RoboSpatial {
-	private static String nom ;
+	private final String nom ;
 	private double abscisserX ;
 	private double ordonneeY ;
 	private Boolean estVoler;
