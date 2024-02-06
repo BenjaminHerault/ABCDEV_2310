@@ -6,11 +6,13 @@ public class App {
 		Coordonnees cord = new Coordonnees (-6,-2);
 		RoboSpatial bouge = new RoboSpatial();
 		
+		bouge.OnPiloter();
+		bouge.Recharcher();
+		bouge.Recolte();
 		bouge.Avancer(cord);
 		bouge.Recule(cord);
 		bouge.Avanceredroite(cord);
 		bouge.avancerGauche(cord);
-
 		
 	}
 }

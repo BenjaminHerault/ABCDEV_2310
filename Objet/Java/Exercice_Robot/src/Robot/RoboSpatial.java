@@ -70,24 +70,31 @@ public class RoboSpatial {
 			return false;
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/*// a travailler 
-	public Boolean Recolte (double restePlace ) {
-		return false;
+	public Boolean OnPiloter() {
+		if (!this.estPiloter) {
+			this.estPiloter = true;
+			return true;
 		}
-		*/
+		else {
+			return false;
+		}
+	}
+	public Boolean Recharcher() {
+		if(!this.estRecharcher) {
+			this.estRecharcher=true;
+			return true ;
+		}
+		else
+			return false;
+	}
+	// a travailler 
+	public Boolean Recolte () {
+			if (!this.estRecolte) {
+				this.estRecolte= true;
+				return true;
+			}	
+			else {
+				return false;
+			}
+	}	
 }

@@ -27,8 +27,4 @@ public enum Recolte {
 	public int getPourcantage() {
 		return pourcantage;
 	}
-
-
-
-
 }
