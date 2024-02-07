@@ -4,10 +4,10 @@ public class RoboSpatial {
 	private final String nom ;
 	private double abscisseXBase ;
 	private double ordonneeYBase ;
-	private Boolean estVoler;
-	private Boolean estRecolte;
-	private Boolean estRecharcher;
-	private Boolean estPiloter;
+	private boolean estVoler;
+	private boolean estRecolte;
+	private boolean estRecharcher;
+	private boolean estPiloter;
 	
 	public RoboSpatial(){
 		this.nom = "perseverance" ;
@@ -23,15 +23,15 @@ public class RoboSpatial {
 						Boolean _estRecolte, Boolean _estRecharcher, 
 						Boolean _estPiloter ){
 		this.nom = _nom ;
-		this.abscisseXBase = _abscisseXBase;
-		this.ordonneeYBase = _ordonneeYBase;
+		this.abscisseXBase = _abscisseXBase ;
+		this.ordonneeYBase = _ordonneeYBase ;
 		this.estVoler =  _estVoler ;
 		this.estRecolte = _estRecolte ;
 		this.estRecharcher = _estRecharcher ; 
 		this.estPiloter = _estPiloter ;
 	}
 	//pour faire avancer le robot
-	public Boolean Avancer(Coordonnees _Coordonnees){
+	public boolean Avancer(Coordonnees _Coordonnees){
 		if(this.ordonneeYBase <= _Coordonnees.getOrdonneeY()&& this.estPiloter && estRecharcher ) {
 			this.ordonneeYBase = _Coordonnees.getOrdonneeY();
 			return true ;
@@ -41,7 +41,7 @@ public class RoboSpatial {
 		}
 	}
 	//pour faire recule le robot
-	public Boolean Recule(Coordonnees _Coordonnees){
+	public boolean Recule(Coordonnees _Coordonnees){
 		if(this.ordonneeYBase >= _Coordonnees.getOrdonneeY()&& this.estPiloter && estRecharcher ) {
 			this.ordonneeYBase = _Coordonnees.getOrdonneeY();
 			return true;
@@ -51,7 +51,7 @@ public class RoboSpatial {
 		}
 	}
 	//pour faire avancer le robot a droite
-	public Boolean Avanceredroite(Coordonnees _Coordonnees){
+	public boolean Avanceredroite(Coordonnees _Coordonnees){
 		if(this.abscisseXBase <= _Coordonnees.getAbscisseX()&& this.estPiloter && estRecharcher ) {
 			this.abscisseXBase = _Coordonnees.getAbscisseX();
 			return true;
@@ -61,7 +61,7 @@ public class RoboSpatial {
 		}
 	}
 	//pour faire avancer le robot a gauche 
-	public Boolean avancerGauche(Coordonnees _Coordonnees){
+	public boolean avancerGauche(Coordonnees _Coordonnees){
 		if(this.abscisseXBase >= _Coordonnees.getAbscisseX()&& this.estPiloter && estRecharcher ) {
 			this.abscisseXBase = _Coordonnees.getAbscisseX();
 			return true;
@@ -70,7 +70,7 @@ public class RoboSpatial {
 			return false;
 		}
 	}
-	public Boolean OnPiloter() {
+	public boolean OnPiloter() {
 		if (!this.estPiloter) {
 			this.estPiloter = true;
 			return true;
@@ -79,7 +79,7 @@ public class RoboSpatial {
 			return false;
 		}
 	}
-	public Boolean Recharcher() {
+	public boolean Recharcher() {
 		if(!this.estRecharcher) {
 			this.estRecharcher=true;
 			return true ;
@@ -88,7 +88,7 @@ public class RoboSpatial {
 			return false;
 	}
 	// a travailler 
-	public Boolean Recolte () {
+	public boolean Recolte () {
 			if (!this.estRecolte) {
 				this.estRecolte= true;
 				return true;

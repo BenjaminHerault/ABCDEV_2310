@@ -6,7 +6,7 @@ public class Point {
 	
 	public Point (double _abscisse , double _ordonnee) {
 		this.abscisse = _abscisse ;
-		this.ordonnee = _ordonnee;
+		this.ordonnee = _ordonnee ;
 	}
 	public double getAbscisse() {
 		return abscisse ;

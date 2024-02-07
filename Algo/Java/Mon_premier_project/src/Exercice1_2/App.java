@@ -23,9 +23,9 @@ public class App {
 		 */
 		
 		//declaraction des variables
-		int rayonR;
-		double aireSphere;
-		double volumeSphere;
+		int rayonR ;
+		double aireSphere ;
+		double volumeSphere ;
 		
 		Scanner sc = new Scanner(System.in);
 		
