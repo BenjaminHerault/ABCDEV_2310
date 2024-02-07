@@ -20,22 +20,30 @@ public class Les_Date {
 		this.annee = _annee;
 		this.estValide = _estValide;
 	}
-	public boolean bissextile() {
-		boolean estBissextile ;
-		
-		if ((annee %4) == 0 && (annee %100) != 0 || (annee %400) == 0) {
-			estBissextile = true ;
-		}
-		else {
-			estBissextile = false ;
-		}
-		return estBissextile;
+
+	public void lesMois () {
+		String moisEnCours = mois1[this.mois-1];
+		System.out.println(this.mois +" = " + moisEnCours);
+
 	}
-	public boolean lesMois () {
-		switch(mois) {
-		case "
-		}
+	public boolean jours() {
+		
+		boolean mois31 , mois30, estBissextille , mois29, mois28;
+		
+		estBissextille=(this.annee %4) == 0 && (this.annee %100) != 0 || (this.annee %400) == 0;
+		
+		mois31 = (this.mois == 1 || this.mois == 3 || this.mois == 5 || this.mois == 8 || 
+				  this.mois == 10 || this.mois == 12) && (this.jour >= 1 && this.jour <= 31);
+		
+		mois30 = (this.mois == 4 || this.mois == 6 || this.mois == 9 || 
+				  this.mois == 11) && (this.jour >= 1 && this.jour <= 30);
+		
+		mois29 = this.mois == 2 && estBissextille && jour >=1 && jour <=29;
+		
+		mois28 = this.mois == 2 && this.jour >= 1 && this.jour <= 28;
+
+		
 	}
 	
-
+ // faire des get et set pour les jours mois et annee 
 }
