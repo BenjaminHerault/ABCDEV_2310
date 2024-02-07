@@ -12,7 +12,7 @@ public class Point {
 		return abscisse ;
 	}
 	public void setAbscisse(double pAbscisse) {
-		abscisse = pAbscisse;
+		abscisse = pAbscisse ;
 	}
 	public double getOrdonnee () {
 		return ordonnee ;
