@@ -20,14 +20,42 @@ public class Les_Date {
 		this.annee = _annee;
 		this.estValide = _estValide;
 	}
-
-	public void lesMois () {
-		String moisEnCours = mois1[this.mois-1];
-		System.out.println(this.mois +" = " + moisEnCours);
-
+	
+	public int getJour() {
+		return this.jour;
 	}
-	public boolean jours() {
-		
+	
+	public void setJour(int pJour) {
+		this.jour = pJour;
+	}
+	
+	public int getMois() {
+		return this.mois;
+	}
+	
+	public void setMois(int pMois) {
+		this.mois = pMois;
+	}
+	
+	public int getAnnee() {
+		return this.annee;
+	}
+	
+	public void setAnnee(int pAnnee) {
+		this.annee = pAnnee;
+	}
+	
+	public void lesMois () {
+		if(this.mois <= 12) {
+			String moisEnCours = mois1[this.mois-1];
+			System.out.println(this.mois +" = " + moisEnCours);
+		}
+		else {
+			this.estValide = false;
+		}
+	}
+	
+	public boolean NbJours() {
 		boolean mois31 , mois30, estBissextille , mois29, mois28;
 		
 		estBissextille=(this.annee %4) == 0 && (this.annee %100) != 0 || (this.annee %400) == 0;
@@ -42,8 +70,15 @@ public class Les_Date {
 		
 		mois28 = this.mois == 2 && this.jour >= 1 && this.jour <= 28;
 
+		if(mois31 || mois30 || mois29 || mois28 ) {
+			estValide = true ;
+		}
+		else {
+			estValide = false;
+		}
+		return estValide;
 		
 	}
 	
- // faire des get et set pour les jours mois et annee 
+
 }
