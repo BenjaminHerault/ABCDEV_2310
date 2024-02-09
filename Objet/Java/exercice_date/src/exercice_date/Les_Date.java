@@ -7,54 +7,44 @@ public class Les_Date {
 	private static String[]  mois1 = {"Janvier","Février","Mars","Avril",
 										"Mai","Juin","Juillet","Aout",
 										"Septembre","Octobre","Novembre","Décembre"};
+	private static String moisEnCours;
 	
-	public Les_Date() {
-		this.jour = 1;
-		this.mois = 1;
-		this.annee = 1;
-		this.estValide = true;
-	}
-	public Les_Date(int _jour, int _mois, int _annee, boolean _estValide) {
+	public Les_Date(int _jour, int _mois, int _annee) {
 		this.jour = _jour;
 		this.mois = _mois;
 		this.annee = _annee;
-		this.estValide = _estValide;
+		this.estValide = NbJours();
 	}
-	
 	public int getJour() {
 		return this.jour;
 	}
-	
 	public void setJour(int pJour) {
 		this.jour = pJour;
 	}
-	
 	public int getMois() {
 		return this.mois;
 	}
-	
 	public void setMois(int pMois) {
 		this.mois = pMois;
 	}
-	
 	public int getAnnee() {
 		return this.annee;
 	}
-	
 	public void setAnnee(int pAnnee) {
 		this.annee = pAnnee;
 	}
-	
-	public void lesMois () {
+	//transformer les nummero du mois en lettre 
+	public boolean transformerNbLettre () {
 		if(this.mois <= 12) {
-			String moisEnCours = mois1[this.mois-1];
-			System.out.println(this.mois +" = " + moisEnCours);
+			moisEnCours = mois1[this.mois-1];
+			return true ;
 		}
 		else {
 			this.estValide = false;
+			return false;
 		}
 	}
-	
+	//verifier que le mois a 31 ou 30 jours et 29 si annee bissextille
 	public boolean NbJours() {
 		boolean mois31 , mois30, estBissextille , mois29, mois28;
 		
@@ -77,8 +67,24 @@ public class Les_Date {
 			estValide = false;
 		}
 		return estValide;
-		
 	}
-	
-
+	public static String afficher(Les_Date _date) {
+		String date = "";
+		if(_date.NbJours() && _date.transformerNbLettre()) {
+			date = Integer.toString(_date.jour)+" " + moisEnCours+" " + Integer.toString(_date.annee);
+			return date;
+		}
+		else {
+			date = Integer.toString(_date.jour)+" " + moisEnCours+" " + Integer.toString(_date.annee)+" n'est pas une date valide";
+			return date ;
+		}
+	}
+	public boolean comparer(Les_Date _date) {
+		if (this.jour > _date.jour || this.mois > _date.mois  || this.annee > _date.annee) {
+			return true; 
+		}
+		else {
+			return false;
+		}
+	}
 }
