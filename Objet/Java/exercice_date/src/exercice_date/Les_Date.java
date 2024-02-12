@@ -80,11 +80,16 @@ public class Les_Date {
 		}
 	}
 	public boolean comparer(Les_Date _date) {
-		if (this.jour > _date.jour || this.mois > _date.mois  || this.annee > _date.annee) {
-			return true; 
+		if (this.estValide && _date.estValide) {
+			if (this.jour <= _date.jour && this.mois <= _date.mois && this.annee <= _date.annee ) {
+				return true; 
+			}
+			else {
+				return false;
+			}
 		}
 		else {
-			return false;
+			return false ;
 		}
 	}
 }
