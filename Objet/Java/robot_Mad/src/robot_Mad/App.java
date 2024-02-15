@@ -6,8 +6,11 @@ public class App {
 		
 		Manette manette = new Manette();
 		manette.appuyer();
-
-			
+/*
+		Telecommande manette2 = new Telecommande();
+		
+		manette2.controleRobot();
+		*/
 	}
 
 }
