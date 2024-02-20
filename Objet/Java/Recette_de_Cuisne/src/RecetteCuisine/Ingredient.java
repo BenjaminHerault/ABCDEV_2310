@@ -12,4 +12,5 @@ public class Ingredient {
 		this.quantite = _quantite;
 		this.unite = _unite;
 	}
+
 }
