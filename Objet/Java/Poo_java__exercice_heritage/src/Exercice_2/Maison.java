@@ -25,5 +25,8 @@ public class Maison {
 	public void setSurface (int _surface) {
 		this.surface = _surface;
 	}
+	public void setPorte (Porte _uneporte) {
+		this.unePorte = _uneporte;
+	}
 	
 }

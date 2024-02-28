@@ -13,11 +13,11 @@ public class Etudiant extends Personne {
 		this.section = _section;
 	}
 	public String GoToClasses() {
-		return super.disBonjour() +"\n"+ "Je m'apelle : " + super.getNom() +" " + super.getPrenom()
+		return this.disBonjour() +"\n"+ "Je m'apelle : " + this.getNom() +" " + this.getPrenom()
 								  +"\n"+ this.afficheAge() +" ans"
 								  +"\n" + "Je suis en "+ this.section + "Je vais en cours";
 	}
 	public String afficheAge() {
-		return "J'ai " + super.calculAge(anneNaissance) ;
+		return "J'ai " + this.calculAge(anneNaissance) ;
 	}
 }

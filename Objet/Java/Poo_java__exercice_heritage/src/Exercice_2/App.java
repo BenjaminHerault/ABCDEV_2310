@@ -5,7 +5,6 @@ public class App {
 	public static void main(String[] args) {
 		
 		Maison test = new Maison(200) ;
-		Appartement test2 = new Appartement ();
 		test.getPorte().setCouleur("Vert");
 		Personne test3 = new Personne ("Benj", test);
 		

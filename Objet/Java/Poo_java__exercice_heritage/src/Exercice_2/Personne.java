@@ -16,7 +16,4 @@ public class Personne {
 				+ this.uneMaison.toString()
 				+"\n"+ this.uneMaison.unePorte.toString();
 	}
-	
-	
-	
 }
