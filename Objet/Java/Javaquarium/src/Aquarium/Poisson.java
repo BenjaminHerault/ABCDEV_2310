@@ -15,5 +15,25 @@ public class Poisson {
 		this.nom = _nom ;
 		this.sexe = _sexe ;
 	}
-
+	// ********** Getters***********
+	public String getNom() {
+		return this.nom;
+	}
+	public Sexe getSexe() {
+		return this.sexe;
+	}
+	// ********** Setters **********
+	public void setNom(String _nom) {
+		this.nom = _nom;
+	}
+	public void setSexe(Sexe _sexe) {
+		this.sexe = _sexe;
+	}
+	
+	public String donneNom() {
+		return this.nom;
+	}
+	public Sexe donnerSexe() {
+		return this.sexe;
+	}
 }
