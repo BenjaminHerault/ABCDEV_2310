@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <concessionnaire>
+        <voiture marque = "Toyota RAV 4">
+            <prix>29 990 €</prix>
+            <annee>2019</annee>
+            <energie>Essence</energie>
+            <place>5</place>
+            <couleur>Rouge</couleur>
+            <puissanceFiscale>9 CV</puissanceFiscale>
+            <Kilometrage>103 323 </Kilometrage>
+            <boiteVitesses>Automatique</boiteVitesses>
+            <nombrePortes>5</nombrePortes>
+            <categorie>SUV/4x4</categorie>
+            <condition>Occasion</condition>
+            <puissanceDIN>178 ch</puissanceDIN>
+        </voiture>
+
+        <voiture marque = "TVolkswagen Id.4">
+            <prix>37 490 €</prix>
+            <annee>2023</annee>
+            <energie>Électrique</energie>
+            <place>5</place>
+            <couleur>Noir</couleur>
+            <puissanceFiscale>5 CV</puissanceFiscale>
+            <Kilometrage>Pas de rapport</Kilometrage>
+            <boiteVitesses>Automatique</boiteVitesses>
+            <nombrePortes>5</nombrePortes>
+            <categorie>SUV/4x4</categorie>
+            <condition>Occasion</condition>
+            <puissanceDIN>149 ch</puissanceDIN>
+        </voiture>
+
+        <voiture marque = "Audi Q4">
+            <prix>42 489 €</prix>
+            <annee>2021</annee>
+            <energie>Électrique</energie>
+            <place>5</place>
+            <couleur>Blanc</couleur>
+            <puissanceFiscale>5 CV</puissanceFiscale>
+            <Kilometrage>42 550</Kilometrage>
+            <boiteVitesses>Automatique</boiteVitesses>
+            <nombrePortes>5</nombrePortes>
+            <categorie>Pick-up</categorie>
+            <condition>Occasion</condition>
+            <puissanceDIN>204 ch</puissanceDIN>
+        </voiture>
+
+        <voiture marque = "Mercedes-Benz GLC 63 AMG">
+            <prix>171 900 €</prix>
+            <annee>2024</annee>
+            <energie>Hybride</energie>
+            <place>5</place>
+            <couleur>Noir</couleur>
+            <puissanceFiscale>37 CV</puissanceFiscale>
+            <Kilometrage>7 000</Kilometrage>
+            <boiteVitesses>Automatique</boiteVitesses>
+            <nombrePortes>5</nombrePortes>
+            <categorie>Pick-up</categorie>
+            <condition>Occasion</condition>
+            <puissanceDIN>680 ch</puissanceDIN>
+        </voiture>
+    </concessionnaire>

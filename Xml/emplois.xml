@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <offresEmploi>
+        <intitule nom ="devolppeur PHP">
+            <ville>Paris</ville>
+            <descriptionPoste>
+                Le développeur PHP travaille dans la phase de construction d’un site internet. 
+                Il participe à la phase de développement technique et informatique du site en question, 
+                et ce, toujours dans le plus grand respect du cahier des charges qui aura été préalablement établi. 
+                Via le langage PHP, le développeur a pour mission de rendre les sites dynamiques, 
+                c’est-à-dire d’y incorporer de nombreuses fonctionnalités selon les besoins du client. 
+                Le développeur web travaille donc en étroite collaboration avec le chef de projet, 
+                les graphistes et les intégrateurs web. Les développeurs PHP sont souvent appelés 
+                d’une manière plus générale, développeurs web ou ingénieurs PHP, 
+                voire simplement développeur informatique dans certains cas.
+
+                Le développeur PHP doit posséder certaines qualités indispensables comme la rigueur, 
+                l'autonomie et l'adaptation. En effet, celui-ci doit s'adapter en fonction des demandes clients. 
+                Il doit par ailleurs être capable de travailler en toute autonomie, mais aussi de collaborer aux côtés de graphistes, 
+                chefs de projet, etc. Celui-ci doit aussi être capable de s'auto-former et d'actualiser ses connaissances et 
+                compétences de manière constante dans le but de rester compétitif. D'un point de vue technique, le développeur PHP doit maîtriser parfaitement 
+                les langages et outils web nécessaires à sa fonction, notamment les langages Java, HTML, CSS, SQL, etc. 
+                La créativité est également un atout majeur lui permettant d'imaginer de nouvelles fonctionnalités et résoudre plus rapidement 
+                des dysfonctionnements de code ou de requête. Pour finir, le développeur PHP doit respecter les délais et doit savoir travailler sous la pression. 
+                En outre, ce dernier ne doit pas perdre ses moyens dans les moments de tension.
+            </descriptionPoste>
+            <competence>
+                → Réaliser un cahier des charges pour garder une certaine cohérence.
+                → Conseiller les clients tout au long du projet.
+                → Programmer et développer des sites internet à la demande des clients.
+                → Vérifier le bon fonctionnement des sites et corriger les dysfonctionnements et bugs.
+                → Incorporer des fonctionnalités au site et faire des mises à jour.
+            </competence>
+            <debut>05/2024</debut>
+            <SalaireAnnuel>développeur junior entre 30 000€ à 35 000€</SalaireAnnuel>
+            <adresseEmailContact>PHP@contact.com</adresseEmailContact>
+        </intitule>
+
+        <intitule nom ="devolppeur JAVA">
+            <ville>Mulhouse</ville>
+            <descriptionPoste>
+                Le développeur Java (code ROME M1805) est un informaticien capable de créer un programme informatique en langage Java. 
+                Technicien informatique, il est capable selon le cahier des charges fourni d'analyser très précisément les besoins de son client, 
+                de concevoir un logiciel d'application informatique qui répond point par point aux exigences techniques et fonctionnelles du cahier des charges, 
+                puis d'écrire en langage Java tout ou partie du programme informatique. L'informatisation des moyens et des outils de travail des entreprises, 
+                des services publics et privés a conduit à l'accroissement du nombre de développeurs informatiques, 
+                véritables experts professionnels des différents langages informatiques. 
+                Le développeur Java est un concepteur sur mesure de programmes informatiques en langage Java ainsi que de leurs notices d'utilisation. 
+                Ainsi, son travail se déroule en 3 étapes : l'analyse du cahier des charges de son client au cours de laquelle il va dégager une bonne solution technique. 
+                Ensuite, celui-ci passe à la programmation en langage Java d'une partie ou de la totalité du logiciel informatique en assemblant 
+                des programmes Java existants avant de passer à la phase d'essais pour tester les applications. Enfin, 
+                le développeur Java rédige les notices techniques et les principaux guides d'utilisation pour les usagers.
+
+                La dimension communication et relationnelle est essentielle dans le métier de développeur 
+                Java tant il est amené à échanger et discuter avec son client émetteur du cahier des charges. 
+                En outre, le développeur Java doit faire preuve d'un sens développé d'écoute et de pédagogie. 
+                Il doit également posséder des qualités de rigueur et d'organisation impératives pour remplir ses fonctions à bien. 
+                Disponibilité, flexibilité et adaptabilité sont bien entendu des qualités requises pour durer dans cette fonction. 
+                Le développeur Java doit aussi être polyvalent et avoir une excellente connaissance et maîtrise des outils informatiques. 
+                Celui-ci doit être doté de bonnes connaissances techniques, mais aussi d'une grande autonomie et créativité. De plus, 
+                celui-ci doit se montrer logique, patient et résistant à la frustration, 
+                car il peut être confronté à des bugs informatiques ou des problèmes qui nécessitent de nombreux tests et essais. 
+                Enfin, il devra faire preuve de qualités rédactionnelles pour la rédaction claire des notices d'utilisation et d'une grande maîtrise de l'anglais, 
+                notamment l'anglais technique incontournable dans sa fonction.
+            </descriptionPoste>
+            <competence>
+                → Rédiger un cahier des charges avec la collaboration du client
+                → Déterminer les besoins en termes de budget, matériel, délais, etc.
+                → Effectuer la maintenance et la mise à jour de certaines applications, sites internet, logiciels, etc.
+                → Créer et développer des applications, des sites et des logiciels.
+                → Procéder à des phases de test sur des versions bêta par exemple.
+            </competence>
+            <debut>09/2025</debut>
+            <SalaireAnnuel>Le salaire moyen entre 40 000€ à 50 000€ bruts annuels</SalaireAnnuel>
+            <adresseEmailContact>java@contact.com</adresseEmailContact>
+        </intitule>
+
+        <intitule nom ="devolppeur NodeJS">
+            <ville>Toulouse</ville>
+            <descriptionPoste>
+                Les principes de développement asynchrone sont la base des connaissances techniques du développeur Node.js. 
+                Il est également important d’avoir des notions d’algorithmique et d’isomorphisme. 
+                Le langage JavaScript n’a pas de secret pour lui et s’il en connaît d’autres, 
+                ce ne peu qu’être mieux. En effet, le potentiel full-stack de Node.
+                js permet au développeur spécialisé de développer une application complète en utilisant uniquement du code JavaScript.
+                Le développeur Node.js a des qualités rédactionnelles indéniables qui lui permettent de communiquer en bonne intelligence avec son équipe. 
+                Il est réactif sur la résolution des problèmes grâce à son esprit d’analyse, son attention constante et à sa créativité. Rigoureux et persévérant, 
+                il sait travailler sous la pression qui apparaît lorsque les délais raccourcissent ou que les clients changent d’avis dans le cadre d’un environnement ESN 
+                (entreprise de service numérique). Savoir s’adapter est la clé mais également savoir faire preuve de persuasion pour communiquer ses idées. 
+                Motivé voire passionné par l’informatique, il est curieux et aime apprendre de nouveaux langages, systèmes et outils.
+
+                Analyser un cahier des charges et choisir une solution technique adaptée parmi les solutions existantes ;
+                Concevoir l’architecture technique d’une application à l’aide de diagrammes UML
+                Créer des API avec du NestJS;
+                Communiquer avec une base de données pour stocker et requêter des informations;
+                Développer de manière professionnelle grâce au framework NestJS;
+                Découper son projet en microservice;
+                Utiliser les conteneurs Dockers pour faciliter le déploiement;
+                Travailler avec des bases de données SQL et No-SQL;
+                Mettre en œuvre des tests unitaires et fonctionnels ainsi qu’utiliser les outils les plus connus d’intégration continue ;
+                Produire une documentation technique et fonctionnelle de l’application 
+                Prendre en compte les problématiques de performance d’une application NestJS
+            </descriptionPoste>
+            <competence>
+                → développement de l'architecture et des fonctionnalités du serveur
+                → gestion de la logique métier
+                → création d'API et de services web
+                → optimisation des performances et de la scalabilité
+                → gestion de la sécurité
+            </competence>
+            <debut>01/2025</debut>
+            <SalaireAnnuel>Un débutant gagne entre 40 000 € et 45 000€ bruts annuels</SalaireAnnuel>
+            <adresseEmailContact>NodeJS@contact.com</adresseEmailContact>
+        </intitule>
+    </offresEmploi>

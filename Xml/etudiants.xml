@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <formation intitule="ABC Dev" duree="5 mois" debut= "Lundi 9 Octobre 2023 " Fin ="vendredi 8 Mars 2024">
+        <etudiants id="01">
+            <nom>Mars</nom>
+            <prenom>Luna</prenom>
+            <dateDeNaissance>01/01/2001</dateDeNaissance>
+            <adresseMail>mars2001luna@outlook.fr</adresseMail>
+        </etudiants>
+
+        <etudiants id="02">
+            <nom>Rose</nom>
+            <prenom>Jada</prenom>
+            <dateDeNaissance>14/03/1996</dateDeNaissance>
+            <adresseMail>rose1996jada@outlook.com</adresseMail>
+        </etudiants>
+
+        <etudiants id="03">
+            <nom>Bob</nom>
+            <prenom>Marc</prenom>
+            <dateDeNaissance>26/09/2006</dateDeNaissance>
+            <adresseMail>bob2006marc@outlook.com</adresseMail>
+        </etudiants>
+    </formation>

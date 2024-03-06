@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <menu>
+        <carteEntree>
+            <entree id="01">
+                <nom>Salade</nom> 
+                <prix>12 euros</prix>
+                <description>Une salade vert qui et classique</description>
+            </entree>
+            <entree id="02">
+                <nom>Salade de carote</nom> 
+                <prix>55 euros</prix>
+                <description>Une salade de carote en or !</description>
+            </entree>
+        </carteEntree>
+        <cartePlats>
+            <plats id="10">
+                <nom>Steak d'or</nom> 
+                <prix>1200 euros</prix>
+                <description>Un bon steak en or</description>
+            </plats>
+            <plats id ="11">
+                <nom>Frite a thon de file d'or</nom> 
+                <prix>5520 euros</prix>
+                <description>Des frite en or enrouler de file d'or</description>
+            </plats>
+            <plats id ="12">
+                <nom>raviolis a l'or pur rose !</nom> 
+                <prix>1220804 euros</prix>
+                <description>l'or rose des raviolos !</description>
+            </plats>
+        </cartePlats>
+        <carteDesserts>
+            <desserts id="20">
+                <nom>ile qui flote pas en or </nom> 
+                <prix>5225823 euros</prix>
+                <description>elle et trop lourd pour floter !</description>
+            </desserts>
+            <desserts id="21">
+                <nom>petit faim pour grand pris !</nom> 
+                <prix>1258987456</prix>
+                <description>un diaman qui se mange  !</description>
+            </desserts>
+        </carteDesserts>
+    </menu>

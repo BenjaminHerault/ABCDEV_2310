@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <projetes>
+        <film id ="01">
+            <nom>Dune, deuxième partie</nom>
+            <duree>2h46 min</duree>
+            <realisateur>Rebecca Ferguson · Timothée Chalamet · Zendaya</realisateur>
+            <lieux>Kinepolis - Mulhouse</lieux>
+            <type>Aventure, Drame, Sci-Fi</type>
+            <note>9/10</note>
+            <diffusion>le 05/03/2024 à 13H40</diffusion>
+        </film>
+
+        <film id ="02">
+            <nom>Bob Marley: One Love</nom>
+            <duree>1h 47min</duree>
+            <realisateur>James Norton · Kingsley Ben-Adir · Lashana Lynch</realisateur>
+            <lieux>Kinepolis - Mulhouse</lieux>
+            <type>PG-13 · Drame</type>
+            <note>6,5/10</note>
+            <diffusion>le 05/03/2024 à 22H30</diffusion>
+        </film>
+
+        <film id ="03">
+            <nom>Une vie</nom>
+            <duree>1h 50min</duree>
+            <realisateur>Anthony Hopkins · Johnny Flynn · Lena Olin</realisateur>
+            <lieux>Kinepolis - Mulhouse</lieux>
+            <type>Drame, Histoire</type>
+            <note>7,6/10</note>
+            <diffusion>le 05/03/2024 à 18H10</diffusion>
+        </film>
+
+        <film id ="04">
+            <nom>Chien et Chat</nom>
+            <duree>1h 26min</duree>
+            <realisateur>Franck Dubosc · Philippe Lacheau · Reem Kherici</realisateur>
+            <lieux>Kinepolis - Mulhouse</lieux>
+            <type>Aventure, Animation, La comédie</type>
+            <note>5,7/10</note>
+            <diffusion>le 05/03/2024 à 16H10</diffusion>
+        </film>
+        
+        <film id ="05">
+            <nom>Madame Web</nom>
+            <duree>1h 56min</duree>
+            <realisateur>Dakota Johnson · Isabela Merced · Sydney Sweeney</realisateur>
+            <lieux>Kinepolis - Mulhouse</lieux>
+            <type>Aventure, Sci-Fi, Action</type>
+            <note>3,8/10</note>
+            <diffusion>le 05/03/2024 à 22H15</diffusion>
+        </film>
+    </projetes>
