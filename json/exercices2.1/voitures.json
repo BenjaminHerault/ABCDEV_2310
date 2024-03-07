@@ -1,0 +1,64 @@
+{
+    "voiture" :[
+        {
+            "marque" : "Toyota RAV 4",
+            "prix" : "29 990 €",
+            "annee" : 2019,     
+            "energie" : "Essence",
+            "place" : 5,
+            "couleur" : "Rouge",
+            "puissanceFiscale" : "9 CV",
+            "Kilometrage" : "103 323",
+            "boiteVitesses" : "Automatique",
+            "nombrePortes" : 5,
+            "categorie" : "SUV/4x4",
+            "condition" : "Occasion",
+            "puissanceDIN": "178 ch"
+        },
+        {
+            "marque" : "TVolkswagen Id.4",
+            "prix" : "37 490 €",
+            "annee" : 2023,     
+            "energie" : "Électrique",
+            "place" :5 ,
+            "couleur" : "Noir",
+            "puissanceFiscale" : "5",
+            "Kilometrage" : "Pas de rapport",
+            "boiteVitesses" : "Automatique",
+            "nombrePortes" : 5,
+            "categorie" : "SUV/4x4",
+            "condition" : "Occasion",
+            "puissanceDIN": "149 ch"
+        },
+        {
+            "marque" : "Audi Q4",
+            "prix" : "42 489 €",
+            "annee" :2021 ,     
+            "energie" : "Électrique",
+            "place" : 5,
+            "couleur" : "Blanc",
+            "puissanceFiscale" : "5 CV",
+            "Kilometrage" : "42 550",
+            "boiteVitesses" : "Automatique",
+            "nombrePortes" : 5,
+            "categorie" : "Pick-up",
+            "condition" : "Occasion",
+            "puissanceDIN": "204 ch"
+        },
+        {
+            "marque" : "Mercedes-Benz GLC 63 AMG",
+            "prix" : "171 900 €",
+            "annee" : 2024,     
+            "energie" : "Hybride",
+            "place" : 5,
+            "couleur" : "Noir",
+            "puissanceFiscale" : "37 CV",
+            "Kilometrage" : "7 000",
+            "boiteVitesses" : "Automatique",
+            "nombrePortes" : 5 ,
+            "categorie" : "Pick-up",
+            "condition" : "Occasion",
+            "puissanceDIN": "680 ch"
+        }
+    ]
+}

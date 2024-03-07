@@ -1,0 +1,55 @@
+
+{
+    "menu" : [
+        {
+            "carteEntree" : [
+                {
+                    "id" : 1,
+                    "nom" : "Salade ceasar",
+                    "prixeuros" : 12,
+                    "description" : "Salade verte, parmesan,crouton,sauce ceasar"
+                },
+                {
+                    "id" : 2,
+                    "nom" : "Salade de thon",
+                    "prixeuros" : 7,
+                    "description" : "Salade verte, thon, Oeuf dur, tomate"
+                }
+            ],
+            "cartePlats" : [
+                {
+                    "id" : 1,
+                    "nom" : "Poulet rotie",
+                    "prixeuros" : 22,
+                    "description" : "Poulet rotie accompagne de frites et de salade verte"
+                },
+                {
+                    "id" : 2,
+                    "nom" : "Spaguetti carbonara",
+                    "prixeuros" : 18,
+                    "description" : "Spaguetti al dente, sauce carbonara"
+                },
+                {
+                    "id" : 3,
+                    "nom" : "Tournedos Rossini",
+                    "prixeuros" : 28,
+                    "description" : "Tournedos de boeuf, foie gras poilee, chutney de figues, spaetzle"
+                }
+            ],
+            "carteDessert" : [
+                {
+                    "id" : 1,
+                    "nom" : "Tiramisu",
+                    "prixeuros" : 8,
+                    "description" : "Biscuit a la cuillere imbibe de cafe, creme aux mascarpone"
+                },
+                {
+                    "id" : 2,
+                    "nom" : "Tartes aux poires et chocolat",
+                    "prixeuros" : 5,
+                    "description" : "Tarte aux poires williams avec creme d'amandes au chocolat noir"
+                }
+            ]
+        }
+    ]
+}

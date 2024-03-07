@@ -1,0 +1,52 @@
+{
+    "legumes" :[
+        {
+            "id" : 1,
+            "nom " : "butternut",
+            "saisonnalite" : "Octobre à février<",
+            "poidsMoyen" : "1 à 2 kg",
+            "conditionnement" : "Pièce",
+            "bio" :"et Bio"
+        },
+        {
+            "id" : 2,
+            "nom " : "blanc de poireau",
+            "saisonnalite" : "Août à Mai",
+            "poidsMoyen" : "100 g",
+            "conditionnement" : "500 g ou vrac",
+            "bio" :"Pas bio"
+        },
+        {
+            "id" : 3,
+            "nom " : "carmine",
+            "saisonnalite" : "Toute l’année",
+            "poidsMoyen" : "100 g",
+            "conditionnement" : "Carton de 2,5 kg, barquette de 300 gr",
+            "bio" :"Pas bio"
+        },
+        {
+            "id" : 4,
+            "nom " : "carotte",
+            "saisonnalite" : "Septembre à Avril",
+            "poidsMoyen" : "125 g",
+            "conditionnement" : "Brossée ou lavée, en vrac ou sachets de 1 kg, 2 kg et 3 kg",
+            "bio" :"et bio"
+        },
+        {
+            "id" : 5,
+            "nom " : "celeri branch",
+            "saisonnalite" : "Septembre à Octobre",
+            "poidsMoyen" : "1 kg",
+            "conditionnement" : "Vrac 5kg ou colis de 10 pièces ou 12 pièces",
+            "bio" :"et bio"
+        },
+        {
+            "id" : 6,
+            "nom " : "chou frise",
+            "saisonnalite" : "Juillet à Novembre",
+            "poidsMoyen" : "1,5 kg",
+            "conditionnement" : "Pièce, vrac ou filet",
+            "bio" :"Pas bio"
+        }
+    ]
+}

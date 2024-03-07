@@ -1,0 +1,16 @@
+{
+    "recette":[
+        {
+            "crepes" : "Les véritables crêpes bretonnes",
+            "preparation" : "30 minutes",
+            "cuisson" : "10 minutes",
+            "nombre" : "12 crêpes",
+            "note" : "4.5/5",
+            "Ingredients" :"250 g de farine de froment 50 g de beurre 50 cl de lait 10 cl d' eau 4 gros oeufs 2 cuillères à soupe de sucre en poudre 1 pincée de sel",
+            "cuissonPole" :"Dans un saladier, ajoutez la farine de froment, 2 cuillères à soupe de sucre et une pincée de sel. Versez le lait puis l'eau progressivement tout en battant avec un fouet. Ensuite, rajoutez le beurre au préalablement fondu et les œufs pour finir Laissez la pâte à crêpes reposer pendant 30 à 45 mn au frais. Utilisez une poêle à crêpes pour réaliser vos crepes bretonnes : graissez-la avec une noisette de beurre puis versez une louche de pâte. Faites cuire votre crêpe environ 2 mn par face, et retournez-la avec une spatule.",
+            "cuissonCrepiere " : "Réalisez la recette comme indiquée ci-dessus. Faites chauffer la billig à environ 220°C (n'hésitez pas à consulter les recommandations de température indiquées sur le manuel de votre crêpière) et, une fois la plaque bien chaude, graissez-la avec un tampon ou chiffon légèrement imbibé de beurre ou d'un mélange de saindoux et de jaune d'oeuf (qu'on appelle aussi lardiguel). Déposez une louche de pâte sur la crêpière et étalez-la à l'aide d'un râteau à crêpes (rozell en Breton). Laissez cuire la crêpe pendant environ une minute puis retournez-la avec une spatule à crêpes (spanell en Breton) puis poursuivez la cuisson pendant quelques instant sur l'autre face. Continuez ainsi pour les crêpes suivantes mais n'oubliez pas de graisser votre billig régulièrement.",
+            "astucesDuChef" : "Comment éviter les grumeaux : pour une astuce anti-grumeaux infaillible, vous mélangez d'abord les ingrédients solides, vous rajoutez les ingrédients liquides puis les oeufs en dernier On n'hésite pas à se resservir et à les accommoder d'un bon cidre ! Pour les gourmands, vous pouvez aussi rajouter 5 cuillères de cacao en poudre dans votre pâte : vous obtiendrez une délicieuse pâte à crêpe au chocolat. Pour la cuisson sur poêle, je vous conseille de faire fondre un peu de beurre dans un bol et de tremper du papier absorbant pour recouvrir votre poêle : vous économiserez ainsi beaucoup de beurre"
+        } 
+    
+    ]
+}

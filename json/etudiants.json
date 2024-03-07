@@ -1,0 +1,27 @@
+
+{
+    "etudiants" : [
+        {
+            "id" : 1,
+            "nom" : "Mars",
+            "prenom" : "Luna",
+            "dateDeNaissance" : "01/01/2001",
+            "adresseMail" : "mars2001luna@outlook.fr"
+        },
+        {
+            "id" : 2,
+            "nom" : "Rose",
+            "prenom" : "Jada",
+            "dateDeNaissance" : "14/03/1996<",
+            "adresseMail" : "rose1996jada@outlook.com"
+        },
+        {
+            "id" : 3,
+            "nom" : "Bob",
+            "prenom" : "Marc",
+            "dateDeNaissance" : "26/09/2006<",
+            "adresseMail" : "bob2006marc@outlook.comm"
+        }
+    ]
+
+}

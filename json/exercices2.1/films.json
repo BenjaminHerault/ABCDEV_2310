@@ -1,0 +1,54 @@
+{
+    "projections" :[
+        {
+            "id" : 1,
+            "nom" : "Dune, deuxième partie",
+            "duree" : "2h46 min",
+            "realisateur" : "Rebecca Ferguson · Timothée Chalamet · Zendaya",
+            "lieux" : "Kinepolis - Mulhouse",
+            "type" : "Aventure, Drame, Sci-Fi",
+            "note" : "9/10",
+            "diffusion" : "le 05/03/2024 à 13H40"
+        },
+        {
+            "id" : 2,
+            "nom" : "Bob Marley: One Love",
+            "duree" : "1h 47min",
+            "realisateur" : "James Norton · Kingsley Ben-Adir · Lashana Lynch",
+            "lieux" : "Kinepolis - Mulhouse",
+            "type" : "PG-13 · Drame",
+            "note" : "6,5/10",
+            "diffusion" : "le 05/03/2024 à 22H30"
+        },
+        {
+            "id" : 3,
+            "nom" : "Une vie",
+            "duree" : "1h 50min",
+            "realisateur" : "Anthony Hopkins · Johnny Flynn · Lena Olin",
+            "lieux" : "Kinepolis - Mulhouse",
+            "type" : "Drame, Histoire",
+            "note" : "7,6/10",
+            "diffusion" : "le 05/03/2024 à 18H10"
+        },
+        {
+            "id" : 4,
+            "nom" : "Chien et Chat",
+            "duree" : "1h 26min",
+            "realisateur" : "Franck Dubosc · Philippe Lacheau · Reem Kherici",
+            "lieux" : "Kinepolis - Mulhouse",
+            "type" : "Aventure, Animation, La comédie",
+            "note" : "5,7/10",
+            "diffusion" : "le 05/03/2024 à 16H10"
+        },
+        {
+            "id" : 5,
+            "nom" : "adame Web",
+            "duree" : "1h 56min",
+            "realisateur" : "Dakota Johnson · Isabela Merced · Sydney Sweeney",
+            "lieux" : "Kinepolis - Mulhouse",
+            "type" : "Aventure, Sci-Fi, Action",
+            "note" : "3,8/10",
+            "diffusion" : "le 05/03/2024 à 22H15"
+        }
+    ]
+}
